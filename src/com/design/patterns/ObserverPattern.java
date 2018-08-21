@@ -102,7 +102,7 @@ public class ObserverPattern {
         // Register the weather display object with weather station object
         weatherStation.addObserver(weatherDisplay);
 
-        // Update the data of weather station so weather display gets notified.
+        // Update the data of weather station so that weather display gets notified.
         weatherStation.updateWeatherData(43.0, 45.0, 48.0);
     }
 }
